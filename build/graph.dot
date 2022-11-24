@@ -1,0 +1,18 @@
+digraph "GG" {
+node [
+  fontsize = "12"
+];
+    "node23" [ label="Executable" shape="house"];
+    "node20" [ label="Library" shape="diamond"];
+    "node23" -> "node20" // Executable -> Library
+    "node9" [ label="fmt" shape="diamond"];
+    "node23" -> "node9" // Executable -> fmt
+    "node5" [ label="nlohmann_json" shape="box"];
+    "node23" -> "node5" // Executable -> nlohmann_json
+    "node11" [ label="spdlog_header_only" shape="box"];
+    "node23" -> "node11" // Executable -> spdlog_header_only
+    "node8" [ label="fmt-header-only" shape="box"];
+    "node13" [ label="spdlog" shape="diamond"];
+    "node26" [ label="unit_tests" shape="house"];
+    "node26" -> "node20" // unit_tests -> Library
+}

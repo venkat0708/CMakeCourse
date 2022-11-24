@@ -1,0 +1,8 @@
+digraph "GG" {
+node [
+  fontsize = "12"
+];
+    "node11" [ label="spdlog_header_only" shape="box"];
+    "node23" [ label="Executable" shape="house"];
+    "node23" -> "node11" // spdlog_header_only -> Executable
+}

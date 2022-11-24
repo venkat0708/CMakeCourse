@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/Coding/Practice/C++/UdemyCmake_Template/2_CMake/11_UnitTest/src/my_lib/my_lib.cc
+iostream
+-
+my_lib.h
+/mnt/d/Coding/Practice/C++/UdemyCmake_Template/2_CMake/11_UnitTest/src/my_lib/my_lib.h
+config.hpp
+/mnt/d/Coding/Practice/C++/UdemyCmake_Template/2_CMake/11_UnitTest/src/my_lib/config.hpp
+
+/mnt/d/Coding/Practice/C++/UdemyCmake_Template/2_CMake/11_UnitTest/src/my_lib/my_lib.h
+
+configured_files/include/config.hpp
+cstdint
+-
+string_view
+-
+
